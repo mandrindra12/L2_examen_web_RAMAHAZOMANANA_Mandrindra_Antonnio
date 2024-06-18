@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/js/ajout.js"></script>
+    <title>Ajout</title>
+    <style>
+      form {
+        display: flex;
+        width: 500px;
+        flex-direction: column;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 32px;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <p>Ajout de livre</p>
+      <a href="/html/list.html">Tous les livres</a>
+    </nav>
+    <form action="">
+      <label for="">Titre</label>
+      <input type="text" name="titre" id="" />
+      <label for="">Auteurs</label>
+      <input type="text" name="auteurs" id="" />
+      <label for="">ISBN</label>
+      <input type="text" name="isbn" id="" />
+      <label for="">Couverture</label>
+      <input type="file" name="image" id="" />
+      <label for="">Editeurs</label>
+      <input type="text" name="editeurs" id="" />
+      <label for="">Date de publication</label>
+      <input type="date" name="date_publication" id="" />
+      <label for="">Genre</label>
+      <input type="text" name="genre" id="" />
+      <label for="">Resume</label>
+      <input type="text" name="resume" id="" />
+      <label for="">Langue</label>
+      <input type="text" name="langue" id="" />
+      <label for="">Page</label>
+      <input type="number" name="nombre_page" id="" />
+      <label for="">Disponibilite</label>
+      <select name="disponibilite">
+        <option value="true">Oui</option>
+        <option value="false">Non</option>
+      </select>
+      <label for="">Etat</label>
+      <select name="etat" id="">
+        <option value="Bon">Bon</option>
+        <option value="Endomage">Endomage</option>
+      </select>
+      <label for="">Emplacement</label>
+      <input type="text" name="emplacement" id="" />
+      <button type="submit">Ajouter</button>
+    </form>
+  </body>
+</html>

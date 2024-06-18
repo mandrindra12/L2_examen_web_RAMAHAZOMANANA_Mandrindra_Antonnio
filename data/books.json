@@ -1,0 +1,64 @@
+{
+  "livres": [
+    {
+      "titre": "An adventure of Sherlock Holmes",
+      "auteurs": ["Georges Orwell"],
+      "isbn": "978-2-07-036822-8",
+      "image": "/img/bd7.jpg",
+      "editeurs": "Gallimard",
+      "date_publication": "1949",
+      "genre": "Espion, Science Fiction",
+      "resume": "Un homme lutte contre un regime totalitaire oppressif  dans un monde dystopique",
+      "langue": "Anglais",
+      "nombre_page": "234",
+      "disponibilite": false,
+      "etat": "Endomage",
+      "emplacement": "Reserves"
+    },
+    {
+      "titre": "Le livre de la jungle 1",
+      "auteurs": ["Rudyiard Kypling"],
+      "isbn": "978-2-07-036822-8",
+      "image": "/img/jungle1.jpg",
+      "editeurs": "Gallimard",
+      "date_publication": "1990",
+      "genre": "Aventure, Jeunesse",
+      "resume": "Un jeune homme se balade dans la jungle avec ses amis des leopard et des ours",
+      "langue": "",
+      "nombre_page": "345",
+      "disponibilite": true,
+      "etat": "Bon",
+      "emplacement": "Etagere 1"
+    },
+    {
+      "titre": "Le livre de la jungle 2",
+      "auteurs": ["Rudyiard Kypling"],
+      "isbn": "978-2-07-036822-8",
+      "image": "/img/jungle2.jfif",
+      "editeurs": "Gallimard",
+      "date_publication": "1996",
+      "genre": "Aventure, Jeunesse",
+      "resume": "Un jeune homme se balade dans la jungle avec ses amis des leopard et des ours",
+      "langue": "Francais",
+      "nombre_page": "300",
+      "disponibilite": true,
+      "etat": "Endomage",
+      "emplacement": "Etagere 1"
+    },
+    {
+      "titre": "Les Profs",
+      "auteurs": ["Jean Francois", "Georges Orwell"],
+      "isbn": "978-2-07-036822-8",
+      "image": "/img/bd1.jpg",
+      "editeurs": "Gallimard",
+      "date_publication": "1991",
+      "genre": "Aventure, Jeunesse, Bande dessinee",
+      "resume": "Une affaire de professeur d' ecole",
+      "langue": "Francais",
+      "nombre_page": "23",
+      "disponibilite": true,
+      "etat": "Endomage",
+      "emplacement": "Etagere 2"
+    }
+  ]
+}
