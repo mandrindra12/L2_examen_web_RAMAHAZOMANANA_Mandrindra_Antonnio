@@ -1,6 +1,6 @@
 import { getAllBooksFromLocalStorage } from "./functions.js";
 document.addEventListener("DOMContentLoaded", () => {
-  const detailButtonArray = document.querySelectorAll("button.details");
+  const detailButtonArray = document.querySelectorAll(".details");
   const popupDetails = document.querySelector(".popup");
   const content = document.querySelector(".p-content-text");
   const books = getAllBooksFromLocalStorage();
@@ -15,9 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
           <h3>${book.titre}</h3>
           <img class='img' src=${book.image}>
           <p><strong>Auteurs: </strong>${book.auteurs}</p>
-          <p><strong>Disponible: </strong>${(book.disponibilite = book.disponibilite
-            ? "Oui"
-            : "Non")}</p>
+          <p><strong>Disponible: </strong>${(book.disponibilite =
+            book.disponibilite ? "Oui" : "Non")}</p>
           <p><strong>Genre:</strong> ${book.genre}</p>
           <p><strong>Date de publication: </strong>${book.date_publication}</p>
           <p><strong>Editeur: </strong>${book.editeurs}</p>
