@@ -27,3 +27,32 @@ export const search = (value) => {
       book.titre.includes(value) || book.auteurs.find((u) => u.includes(value))
   );
 };
+
+export const getCard = (book) => {
+  return `
+  <h3>${book.titre ? book.titre : ""}</h3>
+  <img class='img' src=${book.image}>
+  <p>${book.resume}</p>
+  <p>Genre: ${book.genre}</p>
+  <p>Date de publication: ${book.date_publication}</p>
+  <button titre="${book.titre}" class="details">Details</button></a>
+  `;
+};
+
+export const getHTMLDetails = (book) => {
+  return `
+        <h3>${book.titre}</h3>
+        <img class='img' src=${book.image}>
+        <p><strong>Auteurs: </strong>${book.auteurs}</p>
+        <p><strong>Disponible: </strong>${(book.disponibilite =
+          book.disponibilite ? "Oui" : "Non")}</p>
+        <p><strong>Genre:</strong> ${book.genre}</p>
+        <p><strong>Date de publication: </strong>${book.date_publication}</p>
+        <p><strong>Editeur: </strong>${book.editeurs}</p>
+        <p><strong>Resume: </strong>${book.resume}</p>
+        <p><strong>langue: </strong>${(book.langue =
+          book.langue == "" ? "All" : book.langue)}</p>
+        <p><strong>Page: </strong>${book.nombre_page} pages</p>
+        <p><strong>isbn: </strong>${book.isbn}</p>
+    `;
+};
